@@ -15,12 +15,12 @@ cask "brig" do
     on_intel do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_darwin_amd64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "b75c90db697412a3fcbd6736bec8a96da7e902ec0f09a0c531769957952ee85f"
+      sha256 "9e1cffa0afb594c77f6b6e43e5f8a4da2554ab9ecc5bec203cb3b932157d84e2"
     end
     on_arm do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_darwin_arm64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "d3e296d6fdf3a0855fe9f1dbbb07be6beb13196bb895a9e1e52a666800ca434c"
+      sha256 "61bf831d0c804d57ca610247ca20b582cb615c6b469a595faa0f5e7e8e250caf"
     end
   end
 
@@ -28,12 +28,12 @@ cask "brig" do
     on_intel do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_linux_amd64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "5326c3b42d2c68197a31410cd7fa329a145ced95cc6e42afbb0e0a0164e3a093"
+      sha256 "71560b959116b9206a87ff355100c620a1ddb9e1bd8a9c5ee0046e34f2172241"
     end
     on_arm do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_linux_arm64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "27d17b38b28c02c47ae1356f313839b956469851bdeec55baa8a0af42ffcc5bf"
+      sha256 "85628a84a1135d4d8d8d9fd501e25c1cfc5e5b499499326f5b046d76771d9d1c"
     end
   end
 
