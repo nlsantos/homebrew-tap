@@ -3,7 +3,7 @@ cask "brig" do
   name "brig"
   desc "the lightweight, native Go CLI for devcontainers"
   homepage ""
-  version "0.0.7-alpha"
+  version "0.0.8-alpha"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "brig" do
     on_intel do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_darwin_amd64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "fa2b4b62d1a489e9066f10c714f30945a3aa1d1127a105af980d8a49104bd5a8"
+      sha256 "8df1baa239dcba81004b1ffbdb60c31ddd9202741c31f87b96cb102bcabe5683"
     end
     on_arm do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_darwin_arm64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "54351dd9239df1908eb71878dba92072f6cf2f62e13e1c861685bd47b74f15b9"
+      sha256 "72a5a3d8f2e0735f4fc8f714a1329f8c005c89adcc90c90fef59b02d23bade54"
     end
   end
 
@@ -28,12 +28,12 @@ cask "brig" do
     on_intel do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_linux_amd64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "dbf1100b32c341dfd885cf17384b21d2cea769dc8295435a717a18b284254827"
+      sha256 "79c9337e9b93b7f3822dc7a5cfd6678df143617a07f0ee65c1bf760eadd43c4c"
     end
     on_arm do
       url "https://github.com/nlsantos/brig/releases/download/v#{version}/brig_#{version}_linux_arm64.tar.xz",
         verified: "github.com/nlsantos/brig"
-      sha256 "d370554f1833ad61bfe572c6ab3aea9f8cfeec7bb224c8cc88d2959396cae523"
+      sha256 "c337ed1686c76b575ec37dba55a86ee038219b937809b1ac98b819c9f08738cb"
     end
   end
 
